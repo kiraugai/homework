@@ -1,0 +1,63 @@
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
+	font-weight: 200;
+	font-size: 15px;
+	color: white;
+	margin: 0px;
+	padding: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-image: url("san-francisco.jpg");
+	background-size: cover;
+	background-color: white;
+	background: rgba(0 0 0 0.7);
+}
+
+img {
+	margin: 40px 0px 0px 0px;
+	border: 3px solid white;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+element.style	{
+}
+
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+
+h4 {
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+
+nav {
+	color: #7171C6;
+}
+
+a {
+	color: #7171C6; 
+}
