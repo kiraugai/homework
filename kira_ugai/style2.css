@@ -1,3 +1,8 @@
+@font-face {'
+	font-family: "code-bold";
+	src: url("font/CODE Bold.otf") format("opentype");
+}
+
 body {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
@@ -18,7 +23,7 @@ element.style	{
 }
 
 h1 {
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: "code-bold";
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 700;
@@ -27,7 +32,7 @@ h1 {
     color: #BFEFFF;
 }
 h2 {
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: "code-bold";
     font-size: 34px;
     text-transform: uppercase;
     font-weight: 700;
@@ -44,6 +49,7 @@ h3 {
 }
 a {
 	color: #BFEFFF;
+	font-family: "code-bold"
 }
 nav {
 	color: #BFEFFF;
