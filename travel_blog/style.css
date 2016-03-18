@@ -1,5 +1,11 @@
+*	{
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'lato';
+	margin: 50px;
+	padding: 30px;
 }
 
 h1 a {
@@ -9,3 +15,33 @@ h1 a {
 	font-size: 50px;
 }
 
+nav a {
+	color: #D2D2D2;
+	font-size: 20px;
+}
+
+article a{
+	color: #F9D483;
+}
+
+img	{
+	max-width: 100%;
+}
+
+
+section {
+	width: 65%;
+	float: left;
+	padding-right: 20px;
+}
+
+aside {
+	width: 35%;
+	float: right;
+	padding-left: 20px;
+}
+
+aside a {
+	color: #F9D483;
+	text-decoration: none;
+}
