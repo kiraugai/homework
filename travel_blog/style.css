@@ -1,47 +1,152 @@
-*	{
+*{
 	box-sizing: border-box;
 }
 
-body {
-	font-family: 'lato';
-	margin: 50px;
-	padding: 30px;
+body{
+	font-family: "lato";
+	padding-left: 25px;
+	font-size: 16px;
+	line-height: 1.5;
+} 
+
+article{
+	margin-bottom: 70px;
 }
 
-h1 a {
-	color: #F9D483;
-	text-decoration: none;
+.clearfix:after {
+	display: table;
+	clear: both;
+	content: "";
+} 
+
+section p:first-letter{
+	color:#D2D2D2;
+	float:left;
+	line-height: 75%;
+	padding:10px;
+	font-size: 85px;
+}
+
+header h1{
+	display: inline;
 	font-weight: 300;
-	font-size: 50px;
+	font-size: 40px;
 }
 
-nav a {
+header > h2{
+	margin-left: 20px;
+	font-weight: 300;
 	color: #D2D2D2;
+	display: inline;
 	font-size: 20px;
 }
 
-article a{
-	color: #F9D483;
+header{
+	display: inline-block;
+	width: 100%;
+	padding-left: 25px;
+	margin-bottom: 20px;
 }
 
-img	{
-	max-width: 100%;
+h1, a{
+	color: #F8D484;
+	font-weight: 300px;
 }
 
-
-section {
-	width: 65%;
+section{
+	width: 70%;
 	float: left;
-	padding-right: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 
-aside {
-	width: 35%;
-	float: right;
+aside{
+	width: 30%;
+	float: left;
+	margin-top: 75px;
 	padding-left: 20px;
+	padding: 10px;
+	color: #968477;
 }
 
-aside a {
-	color: #F9D483;
+.more{
+	float: right;
+	font-weight: 700px;
+	padding-right: 15px;
+}
+
+.module h4{
+	color: #D2D2D2;
+	font-weight: 700px;
+}
+
+.module{
+	margin-bottom: 70px;
+}
+
+#nav a{
+	display: inline-block;
+	background-color: #AFB6BB;
+	color: #FFFFFF;
+	padding: 10px;
+	width: 16%;
+	text-align: center;
+	font-size: 18px;
 	text-decoration: none;
+}
+
+header nav {
+  clear: both;
+  width: 100%;
+}
+
+h4 > a{
+	float: right;
+	font-weight: 700px;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+	margin: 10px 0;
+	padding-top: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+h3{
+	color: #D2D2D2;
+	font-size: 25px;
+	font-weight: 700px;
+	margin-top: 50px;
+}
+
+h3, h2{
+	line-height: 0.5;
+}
+
+h2 > a{
+	color: #000000;
+	font-weight: 700px;
+	font-size: 30px;
+}
+
+h4	{
+	font-weight: bold;
+}
+
+hr  {
+	color: #D2D2D2;
+	margin: 15px;
+}
+
+footer nav{
+	margin-top: 30px;
+}
+
+#copyright{
+	color: #D2D2D2;
+	margin-top: 20px;
 }
