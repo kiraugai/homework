@@ -56,6 +56,19 @@ a:hover {
   background-color: rgba(215, 224, 219, 0.5);
 }
 
+.blurb h2 {
+  font-size: 25px;
+}
+
+section h3 {
+  font-size: 25px;
+}
+
+.info h3, .infomidblock h3 {
+  font-family: "Merriweather"
+  font-weight: 700;
+}
+
 /* Layout (columns, floats, etc.)
    ================================================================ */
 
