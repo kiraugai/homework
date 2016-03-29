@@ -1,6 +1,7 @@
 /* ==========================================================================
    Global Overrides
   ========================================================================== */
+
 * {
   box-sizing: border-box;
    /* border: 1px solid red; */
@@ -28,87 +29,160 @@
     Red - #FF0121
 */
 
-
 /* Global
    ================================================================ */
+  /* Set some defaults! font-family, font-size, color, etc. */
+
 body {
   font-family:"Source Sans Pro";
   font-weight: 400;
   color: #080808;
   font-size: 20px;
-  /* Set some defaults! font-family, font-size, color, etc. */
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
    ================================================================ */
+/* Set some default styles for anchors (color, text decoration) */
+
 a {
-  font-family:"Merriweather";
-  font-weight: 700;
   text-decoration: none;
-  font-size: 25px;
-  color: #080808;
-  /* Set some default styles for anchors (color, text decoration) */
+  color: rgba(255, 255, 255, 1.00);
 }
 
+a:hover {
+  display: inline-block;
+  background-color: rgba(215, 224, 219, 0.5);
+}
 
 /* Layout (columns, floats, etc.)
    ================================================================ */
 
-
-/* Header
-   ================================================================ */
-header h1 {
-  float: left;
-  padding: 20px;
-  font-size: 30px;
-}
-
-
-/* Navigation
-   ================================================================ */
-nav {
-  float: right;
-  font-size: 20px;
-}
-
-nav li {
-  display: inline-block;
-  padding: 20px;
+.boxalign {
+  text-align: center;
 }
 
 .tagline {
   text-align: center;
+  background-color: rgba(215, 224, 219, 1.00);
   font-family:"Merriweather";
   font-weight: 700;
+  font-size: 25px;
   font-style: italic;
+  padding: 15px 0;
+  margin: 0px;
 }
-
-/* Buttons
-   ================================================================ */
 
 .banner {
   display: block;
   background-image: url("http://s13.postimg.org/3y1d3s0if/coworking.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  background-size: cover;
+  border: 2px solid #9E9E9E;
+  width: 100%;
+  margin: 0px;
 }
 
 .blurb {
-  width: 200px;
+  display: inline-block;
   float: right;
-  background-color: #D4E1DB;
-  display: block;
+  height: 300px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 30px 40px 30px 40px;
+  padding: 10px 30px 10px 30px;
 }
-
-.info {
+ 
+.info, .infomidblock {
+  display: inline-block;
+  text-align: left;
   float: left;
   width: 33.33%;
-  padding-right: 10px;
+  padding: 0 40px;
+  margin: 25px 0px 25px 0px;
+}
+
+.infomidblock {
+  border-left: 1px solid rgba(229, 229, 229, 255);
+  border-right: 1px solid rgba(229, 229, 229, 255);
+}
+
+/* Header
+   ================================================================ */
+
+header {
+  background-color: #3C3A3A;
+  border-bottom: 5px solid #FFDB11;
+}
+
+header h1 {
+  float: left;
+  font-size: 30px;
+  font-family: "Merriweather";
+  font-weight: 700;
+  padding-left: 30px
+}
+
+/* Navigation
+   ================================================================ */
+
+header nav {
+    float: right;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 0 8px;
+}
+
+header nav strong {
+  font-family: "Oswald";
+}
+
+/* Buttons
+   ================================================================ */
+
+.banner .button {
+  background-color: RGBA(255, 0, 42, 1.00);
+  color: RGBA(255, 255, 255, 1.00);
+  box-shadow: 0px 2px RGBA(210, 0, 0, 1.00);
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: RGBA(215, 224, 219, 1.00);
+  box-shadow: 0px 2px RGBA(164, 177, 171, 1.00);
+  color: RGBA(59, 57, 58, 1.00);
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 /* Footer
    ================================================================ */
+
 footer {
   clear: both;
+  background-color: rgba(59, 58, 58, 255);
+  width: 100%;
+  height: 70px;
+  padding: 5px 0 0 20px;
+  font-size: 16px;
+  color: RGBA(194, 193, 193, 1.00);
 }
