@@ -37,12 +37,13 @@ $('#box1').on('click', function() {
 */
 
 // 6. Hide the item with the id #dropdownMenu
-
+$('#dropdownMenu').hide(500);
 
 // 7. When the element with the id #dropdownButton is clicked,
 	// a) slide toggle #dropdownMenu
-
-
+$('#dropdownMenu').on('click', function() {
+	$('#dropdownMenu').slideToggle(300);
+});
 
 /**
 *
