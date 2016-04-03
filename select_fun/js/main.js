@@ -66,9 +66,9 @@ $('#question2').on('click', function() {
 	// b) Slide up #answer1
 	$('#answer1').slideUp(350);
 	// c) Remove the active class from all list items
-	$('active').removeClass('li');
+	$('li').removeClass('active');
 	// d) Add the active class to #question2
-	$('active').addClass('#question2');
+	$('#question2').addClass('active');
 });
 
 // 11. When #question1 is clicked:
@@ -78,7 +78,7 @@ $('#question1').on('click', function() {
 	// b) Slide up #answer2
 	$('#answer2').slideUp(350);
 	// c) Remove the active class from all list items
-	$('active').removeClass('li');
+	$('li').removeClass('active');
 	// d) Add the active class to #question1
-	$('active').addClass('#question1');
+	$('#question1').addClass('active');
 });
