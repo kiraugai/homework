@@ -58,6 +58,7 @@ body {
 /*******************************************/
 
 /* Center the container */
+
 #container {
 	width: 960px;
 	margin: 50px auto;
@@ -69,8 +70,10 @@ body {
 
 header {
      padding: 30px;
-     background-color: #eee;
+     background-color: RGBA(217, 255, 32, 1.00);
      margin: 0px 0px 50px;
+     border-color: purple;
+     border-style: dotted;
 }
 
 
@@ -106,10 +109,21 @@ footer {
      margin: 25px 0;
      font-weight: bold;
      font-size: 24px;
+     background-color: RGBA(217, 255, 32, 1.00);
+     border: purple;
+     border-style: dotted;
 }
 
 .selected {
-     border-color: red;
+     border-color: purple;
+     border-style: dotted;
+     background-color: RGBA(211, 186, 241, 1.00);
+}
+
+.span7 {
+     color: green;
+     font-family: verdana;
+     font-style: italic;
 }
 
 /******************************************
