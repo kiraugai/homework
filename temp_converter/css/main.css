@@ -1,37 +1,43 @@
 body {
   padding: 20px;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 
 h1 {
-  font-family: Georgia, serif;
+  font-family: 'Source Code Pro';
+  color: RGBA(12, 44, 82, 1.00);
 }
 
 .converter-container {
   width: 340px;
   margin: 0 auto;
+  border-style: double;
+  border-color: RGBA(185, 85, 138, 1.00);
+  background-color: RGBA(178, 224, 237, 1.00);
 }
 
 input {
   margin-right: 10px;
   padding: 10px;
-  border: 3px solid #dfdfdf;
+  border: 3px solid RGBA(185, 85, 138, 1.00);
   border-radius: 4px;
 }
 
 input:focus {
   border-color: #afafaf;
   outline: none;
+  color: black;
 }
 
 button {
   font-size: 14px;
   padding: 10px;
   color: white;
-  border: none;
+  border: double;
   border-radius: 4px;
   outline: none;
-  background: #f26629;
+  background: RGBA(185, 85, 138, 1.00);
   cursor: pointer;
 }
 
